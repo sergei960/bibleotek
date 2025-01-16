@@ -1,0 +1,116 @@
+.comp{
+    width: 73%;
+    min-height: 1616px;
+    margin: 108px auto 0 auto;
+}
+.squares{
+    width: 66%;
+    min-height: 751px;
+    margin: 0 auto;
+    h3{
+        color: rgb(38, 38, 38);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        text-align: center;
+    }
+    p{
+        color: rgb(115, 115, 115);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+        text-align: center;
+        text-indent: 40px;
+        margin-top: 31px;
+    }
+    &__bosses{
+        width: 916px;
+        height: 573px;
+        background-image: url('../assets/img/compani.png');
+        margin-top: 43px;
+        margin-bottom: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__laun{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: none;
+        background: rgb(202, 1, 0);
+        box-shadow: 0 0 8px 10px rgb(202, 1, 0, 0.8);
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+     }
+}
+.choi{
+    width: 100%;
+    min-height: 291px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    &__skoda{
+        width: 23.5%;
+        min-height: 291px;
+        span{
+            color: rgb(173, 173, 176);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+            display: inline-block;
+            margin-top: 23px;
+        }
+        p{
+            color: rgb(38, 38, 38);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            text-align: left;
+            margin-top: 12px;
+        }
+    }
+}
+.ship{
+    width: 20%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    ol{
+        color: rgb(38, 38, 38);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: left;
+    }
+    &__car{
+        text-decoration: underline solid 3px rgb(202, 1, 0);
+        span{
+            color: rgb(202, 1, 0);
+        }
+    }    
+}
+.dealership{
+    h3{
+        color: rgb(38, 38, 38);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        text-align: left;
+        margin-top: 70px;
+        margin-bottom: 8px;
+    }
+    p{
+        color: rgb(115, 115, 115);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,112 @@
+@media (max-width:768px){
+    .car-loan{
+        padding: 35px;
+        h4{
+            width: 250px;
+            height: 29px;
+            font-size: 20px;
+            line-height: 23px;
+            font-weight: 900;
+            margin: 0;
+
+        }
+    }
+    .calculators{
+        display: block;
+        width: 100%;
+    }
+    .calculator-bocks{
+        width: 100%;
+    }
+    .selects{
+        border-radius: 0;
+        background: none;
+        padding-top: 0;
+        padding-left: 0;
+        select{
+            width: 221px;
+            height: 65px;
+        }
+    }
+    .reng{
+        margin-top: 0;
+        &__img{
+            background: url(../assets/img/media.png);
+            background-repeat: no-repeat;
+            margin-top: 40px;
+            margin-left: 15px;
+            
+        }    
+    }
+    .credits{
+        width: 350px;
+    }
+    .box__markers{
+        width: 350px;
+        margin-bottom: 34px;
+    }
+    .reng__amount{
+        .big{
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+        }
+        .little{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+        }
+    }
+    .benefit__results{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .contrib{
+        span{
+            font-size: 13px;
+            line-height: 16px;
+            margin-left: 40px;
+        }
+    }
+    .contrib__numb{
+        width: 183px;
+        height: 65px;
+    }
+    .form-offers{
+        width: 100%;
+        height: 196px;
+        padding: 25px 0 0 0;
+        background: none;
+        border-radius: 0;
+        border-top: 1px solid rgb(225, 225, 225); 
+        margin-top: 40px;
+        h3{
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 23px;
+        }
+        &__name{
+            width: 206px;
+            height: 65px;
+            display: inline-block;
+            margin: 0;
+            }
+            &__tel{
+                width: 206px;
+                height: 65px;
+                display: inline-block;
+                margin: 0;
+            }
+            &__submit{
+                width: 206px;
+                height: 65px;
+                margin: 0;
+            }
+            form{
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+            }
+    }
+
+}

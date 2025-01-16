@@ -1,0 +1,151 @@
+.head{
+    width: 100%;
+    min-height: 197px;
+    background: rgb(255, 255, 255);
+}
+.data{
+    width: 100%;
+    min-height: 43px;
+    background: rgb(239, 240, 240);
+}
+.block{
+    width: 73%;
+    min-height: 43px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__geo{
+        width: 48%;
+        min-height: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__address{
+        color: rgb(115, 115, 115);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        span{
+            display: inline-block;
+            vertical-align: 10%;
+        }
+    }
+    &__time{
+        color: rgb(115, 115, 115);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        span{
+            display: inline-block;
+            vertical-align: 10%;
+        }
+    }
+    &__messeg{
+        color: rgb(115, 115, 115);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        vertical-align: 50%;
+        span{
+            text-decoration-line: underline;
+            display: inline-block;
+            vertical-align: 30%;
+        }
+    }
+}
+.company{
+    width: 73%;
+    min-height: 58px;
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list{
+        width: 29%;
+        .list{
+            display: flex; 
+            justify-content: space-between;
+            align-items: center; 
+            list-style: none;
+            color: rgb(38, 38, 38);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            :first-child{
+                color: rgb(202, 1, 0);
+            }
+        } 
+    }
+    &__tel{
+        margin-right: 20px;
+        color: rgb(38, 38, 38);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        display: inline-block;
+        span{
+            display: block;
+            color: rgb(38, 38, 38);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: end;
+        }
+    }
+}
+.nav{
+    width: 73%;
+    min-height: 29px;
+    margin: 0 auto 29px auto;
+    display: flex;
+    &__list{
+        width: 83%;
+        min-height: 29px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        color: rgb(38, 38, 38);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: left;
+        text-transform: uppercase;
+        li:after{
+            content:'';
+            display: inline-block;
+            width: 12px;
+            height: 10px;
+            background-image: url(../assets/logo/galka.svg);
+            margin-left: 10px;
+        }
+        li:last-child::after{
+            content: none;
+        }
+    }
+    &__search{
+        display: flex;
+        justify-content: flex-end;
+        width: 17%;
+        div{
+            margin-left: 40px;
+            position: relative;
+        }
+        div:after{
+            content:'';
+            display: inline-block;
+            position: absolute;
+            top: -10px;
+            right: -14px;
+            vertical-align:100%;
+            width: 26px;
+            height: 18px;
+            border-radius: 14px;
+            background: rgb(202, 1, 0);
+        }
+        div:last-child::after{
+            content: none;
+        }
+    }
+   
+}

@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    .selection{
+        flex-direction: column;
+        width: 97%;
+        margin: 28px auto 0 auto;
+    }
+    .autolist{
+        width: 100%;
+        padding-right: 30px;
+        &__colomn{
+            width: 138px;
+            height: 328px;
+            div{
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 300;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .calculator{
+        width: 100%;
+        height: 266px;
+        h2{
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 23px;
+        }
+    }
+    .price{
+        width: 100%;
+        padding-right: 10px;
+    }
+    .range{
+        width: 98%;
+    }
+    .select{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .button_auto{
+        width: 729px;
+    }
+}

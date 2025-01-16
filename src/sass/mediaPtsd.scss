@@ -1,0 +1,85 @@
+@media (max-width:768px){
+    .pts{
+        width: 97%;
+        margin-top: 40px;
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 35px;
+            text-align: left;
+        }
+    }
+    .ptsd{
+        width: 97%px;
+        height: 1498px;
+        &__auto{
+            width: 48%;
+            height: 468px;
+            background-position: 136px 150px,57px 61px;
+            background-size: 230px, 400px;
+        }
+        &__bk{
+            height: 449px;
+            margin: 20px; 
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 23px;
+            }
+            label{
+                margin-left: 70px;
+                img{
+                    margin-left: 12px;
+                    width: 18px;
+                    height: 16px;
+                }
+            }
+        }
+        &__cheque{
+            .datas{
+                width: 69px;
+                font-size: 8px;
+                font-weight: 400;
+                line-height: 9px;
+                img{
+                    width: 13px;
+                    height: 10.95px;
+                }
+            }
+        }
+    }
+    .month{
+        h4{
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 14.5px;
+        }
+    }
+    .reserve{
+        display: block;
+        width: 294px;
+        &:after{
+            top: 7px;
+            left: 279px;
+        }
+        &_buy{
+            width: 143px;
+            display: inline-block;
+            margin-top: 8px;
+            &:after{
+                left: 129px;
+            }
+        }
+        &_detailed{
+            width: 143px;
+            display: inline-block;
+            margin-top: 8px;
+            &:after{
+                left: 129px;
+            }
+        }
+    }
+    .btn{
+        display: none;
+    }
+}

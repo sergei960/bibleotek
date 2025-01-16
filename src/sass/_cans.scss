@@ -1,0 +1,233 @@
+.cans{
+    width: 73%;
+    min-height: 765px;
+    margin: 72px auto 0 auto;
+}
+.cans-portners{
+    width: 100%;
+    min-height: 133px;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 109px 0;
+    &__logo-cans{
+        width: 327px;
+        height: 133px;
+        border-radius: 10px;
+        background: rgb(239, 240, 240);
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.response{
+    width: 100%;
+    min-height: 145px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    &__website{
+        width: 327px;
+        height: 145px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px rgba(133, 147, 159, 0.3);
+        background: rgb(255, 255, 255);
+        padding: 23px 22px;
+        h5{
+            color: rgb(38, 38, 38);
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 23px;
+            text-align: left; 
+        }
+        a{
+            color: rgb(173, 173, 176);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            text-decoration: none;
+        }
+    }
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 25px;
+    &__text{
+        color: rgb(38, 38, 38);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+    }
+    &__numbers{
+        width: 50px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgb(85, 188, 107);
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+.stars{
+    font-size: 19px;
+    color: rgb(255, 184, 0);
+    display: flex;
+    .star{
+        font-size: 19px;
+        color: rgb(225, 225, 225);
+        margin-left: 3px; 
+    }
+}
+.maps{
+    width: 100%;
+    min-height: 145px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    &__yandex{
+        width: 684px;
+        height: 145px;
+        border-radius: 10px;
+        background: rgb(239, 240, 240);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 36px 0 36px;
+    }
+    &__geo{
+        color: rgb(173, 173, 176);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        img{
+            display: block;
+        }
+    }
+    &__ratings{
+        .texts{
+            color: rgb(38, 38, 38);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: center;
+        }
+        .starst{
+            font-size: 19px;
+            color: rgb(255, 184, 0);
+            display: flex;
+            .start{
+                font-size: 19px;
+                color: rgb(225, 225, 225);
+                margin-left: 3px; 
+            }
+        }
+    }
+    &__numbbig{
+        width: 123px;
+        height: 73px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgb(85, 188, 107);
+        color: rgb(255, 255, 255);
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+.reviews{
+    width: 100%;
+    min-height: 676px;
+    margin-top: 90px;
+    h3{
+        color: rgb(38, 38, 38);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        text-align: left;
+    }
+}
+.rev{
+    width: 100%;
+    min-height: 585;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    &__video{
+        width: 32%;
+        min-height: 585px;
+    }
+    &__player{
+        width: 100%;
+        min-height: 291px;
+        border-radius: 25px 25px 0px 0px;
+        background: rgb(38, 38, 38);
+        background-image: url('../assets/logoCans/a.svg');
+        background-position: 141px 60px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .launch{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            border: none;
+            background: rgb(202, 1, 0);
+            box-shadow: 0 0 8px 10px rgb(202, 1, 0, 0.8);
+            font-size: 20px;
+            color:rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer; 
+        }
+    }
+    &__cont{
+        width: 100%;
+        min-height: 294px;
+        border-radius: 0px 0px 25px 25px;
+        background: rgb(242, 242, 242);
+        padding: 32px 30px;
+        h6{
+            color: rgb(38, 38, 38);
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            text-align: left;
+            text-transform: capitalize;
+            margin-top: 32px;
+        }
+        p{
+            color: rgb(115, 115, 115);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            margin-top: 30px;
+        }
+        select{
+            width: 188px;
+            height: 36px;
+            border-radius: 20px;
+            background: rgb(225, 225, 225);
+            color: rgb(38, 38, 38);
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 14px;
+            text-align: left;
+            border: none;
+            margin-top: 20px;
+        } 
+    }
+}

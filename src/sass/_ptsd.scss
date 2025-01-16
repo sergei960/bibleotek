@@ -1,0 +1,183 @@
+.pts{
+    width: 73%;
+    min-height: 1120px;
+    margin: 0 auto;
+    margin-top: 64px;
+    h2{
+        color: rgb(38, 38, 38);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        text-align: center;
+    }
+}
+.ptsd{
+    width: 100%;
+    min-height: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    &__auto{
+        width: 446px;
+        height: 449px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 30px 0px rgba(133, 147, 159, 0.3);
+        background: rgb(255, 255, 255);
+        background-image: url('../assets/logoPtsd/bmv.svg'),
+                            url('../assets/logoPtsd/city.svg');
+        background-position: 148px 135px, 77px 33px;
+        background-repeat: no-repeat;
+    }
+    &__bk{
+        margin:25px;
+        h3{
+            display: inline-block;
+            color: rgb(38, 38, 38);
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 32px;
+            text-align: left;
+            text-transform: capitalize;
+        }
+        label{
+            vertical-align: top;
+            margin-left: 106px;
+            img{
+                margin-left: 12px;
+            }
+        }
+    }
+    &__proposal{
+        margin-top: 22px;
+        div{
+            display: inline-block;
+            color: rgb(202, 1, 0);
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 14px;
+            margin-left: 30px;
+            width: 100px;
+            height: 28px;
+            vertical-align: -50%;
+        }
+    }
+    &__gift{
+        margin-top: 8px;
+        .br{
+            display: inline-block;
+            width: 97px;
+            min-height: 35px;
+            margin-left: 9px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15px;
+            color:rgb(38, 38, 38);
+            span{
+                color: rgb(202, 1, 0);
+            }
+            
+        }
+        .img{
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+            background: rgb(38, 38, 38);
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+            vertical-align: top;
+        }
+    }
+    &__credit{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .from{
+            color: rgb(38, 38, 38);
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: left;
+        }
+        .month{
+            color: rgb(38, 38, 38);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 14.5px;
+            text-align: center;
+            h4{
+                margin-top: 13px;
+            }
+        }
+    }
+    &__cheque{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 9px;
+        .datas{
+            width: 94px;
+            height: 31px;
+            border: 1px solid rgb(194, 194, 196);
+            border-radius: 20px;
+            background: rgb(255, 255, 255);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(38, 38, 38);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+        }
+        img{
+            margin-right: 5px;
+        }
+    }
+    &__bitns{
+        width: 396px;
+        height: 50px;
+        margin-top: 10px;
+    }
+}
+.btn{
+    width: 312px;
+    height: 65px;
+    border-radius: 6px;
+    border: none;
+    background: rgb(202, 1, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+.btns{
+    position: relative;
+    background-color:  rgb(202, 1, 0);
+    padding: 0px 16px;
+    width: 160px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    display: inline-block;
+    z-index:1;
+  }
+  
+  .btns:before{
+    content: '';
+    position: absolute;
+    left: 100%;
+    z-index:-1;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(202, 1, 0);
+    transform: rotate(-45deg) translate(-6px,-10px);
+  }

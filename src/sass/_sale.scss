@@ -1,0 +1,89 @@
+.sale{
+    width: 97%;
+    min-height: 600px;
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(251, 252, 252);
+    background-image: url('../assets/img/rio.png'),
+                url('../assets/img/rav4.png'),
+                url('../assets/img/rapid.png'),
+                url('../assets/img/bagraund.png');
+    background-position: 750px 173px, 1190px 184px, 1384px 167px, 674px 0 , 0 0;           
+    background-repeat: no-repeat;           
+    margin: 0 auto;
+    &__left{
+        width: 12%;
+        min-height: 600px;
+        img{
+            display: block;
+            margin-left: 57px;
+            margin-top: 263px;
+        }
+    }
+    &__content{
+        width: 76%;
+        min-height: 600px;
+    }
+    &__remains{
+        width: 208px;
+        height: 29px;
+        border-radius: 33px;
+        background: rgb(202, 1, 0);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 81px;
+    }
+    &__right{
+        width: 12%;
+        min-height: 600px;
+        img{
+            display: block;
+            margin-left: 132px;
+            margin-top: 263px;
+        }
+    }
+    &__hr{
+        margin-top: 35px;
+        h1{
+            color: rgb(38, 38, 38);
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: 0%;
+        }
+        span{
+            display: inline-block;
+            margin-top: 24px;
+            color: rgb(115, 115, 115);
+            font-size: 29px;
+            font-weight: 400;
+            line-height: 34px;
+            letter-spacing: 0%;
+        }
+    }
+    &__circles{
+        margin-top: 157px;
+        display: flex;
+    }
+    &__circl{
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: rgb(115, 115, 115);
+        opacity: 0.52;
+        margin-left: 15px;
+    }
+    &__aktiv{
+        border-radius: 100%;
+        border: 3px solid rgb(202, 1, 0);
+        opacity: 0.6;
+        margin-left: 15px;
+        width: 10px;
+        height: 10px;
+    }
+}

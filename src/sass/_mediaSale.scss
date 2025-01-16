@@ -1,0 +1,41 @@
+@media (max-width:768px){
+    .sale{
+        min-height: 360px;
+        margin: -60px auto 0 auto;
+        background-position: 226px 152px,427px 155px,511px 149px,182px 0px;
+        background-size: 350px, 250px, 240px, 580px;
+        &__left{
+            display: none;
+        }
+        &__right{
+            display: none; 
+        }
+        &__content{
+            width: 600px;
+            min-height: 360px;
+        }
+        &__circles{
+            margin-top: 91px;
+        }
+        &__remains{
+            margin-top: 35px;
+            margin-left: 35px;
+            width: 154px;
+            height: 22px;
+            font-size: 12px;
+            padding-top: 2px;
+        }
+        &__hr{
+            h1{
+                margin-top: 26px;
+                font-size: 36px;
+                line-height: 42px;
+            }
+            span{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+            }
+        }
+    }
+}

@@ -1,0 +1,221 @@
+.offer{
+    width: 73%;
+    min-height: 1120px;
+    margin: 71px auto 0 auto;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    &__hed{
+        color: rgb(38, 38, 38);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        text-align: left;
+    }
+    &__arrows{
+        display: flex;
+        .left{
+            width: 48px;
+            height: 48px;
+            border-radius: 6px;
+            box-shadow: 0px 0px 30px 0px rgba(133, 147, 159, 0.3);
+            background: rgb(255, 255, 255);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        .right{
+            width: 48px;
+            height: 48px;
+            border-radius: 6px;
+            box-shadow: 0px 0px 8px 0px rgba(182, 182, 182, 0.25);
+            background: rgb(202, 1, 0);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-left: 12px;
+        }
+    }
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+    &__family{
+        width: 447px;
+        height: 317px;
+        border-radius: 25px;
+        position: relative;
+        background-image:linear-gradient(180.00deg, rgba(38, 38, 38, 0) 63.88%,rgba(38, 38, 38, 0.93) 100%), url('../assets/img/auto1.png');
+    }
+    &__journey{
+        width: 447px;
+        height: 317px;
+        border-radius: 25px;
+        position: relative;
+        background-image: linear-gradient(180.00deg, rgba(38, 38, 38, 0) 63.88%,rgba(38, 38, 38, 0.93) 100%), url('../assets/img/auto2.png');
+    }
+    &__urban{
+        width: 447px;
+        height: 317px;
+        border-radius: 25px;
+        position: relative;
+        background-image: linear-gradient(180.00deg, rgba(38, 38, 38, 0) 63.88%,rgba(38, 38, 38, 0.93) 100%), url('../assets/img/auto3.png');
+    }
+    &__watch{
+        width: 350px;
+        height: 47px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 23px;
+        left: 45px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        .watch{
+            width: 142px;
+            height: 40px;
+            border-radius: 6px;
+            background: rgb(202, 1, 0);
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: center;
+            border: none;
+            display: inline-block;
+        }
+    }
+}
+.form{
+    width: 100%;
+    min-height: 328px;
+    border-radius: 25px;
+    margin-top: 89px;
+    background-image:  url('../assets/img/glove.svg'),radial-gradient(60% 50% ellipse at left, rgb(202, 1, 0), rgb(38, 38, 38)),;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    &__blocks{
+        width: 60%;
+        min-height: 328px;
+    }
+    &__discounts{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+        margin-top: 66px;
+        h3{
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 35px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        span{
+            color: rgb(202, 1, 0);
+        }
+    }
+    &__phone{
+        margin-top: 26px;
+        input{
+            width: 369px;
+            height: 65px;
+            border: 1px solid rgb(239, 240, 240);
+            border-radius: 6px;
+            background: rgb(255, 255, 255);
+            color: rgb(38, 38, 38);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+        }
+        button{
+            width: 369px;
+            height: 65px;
+            border-radius: 6px;
+            background: rgb(202, 1, 0);
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+            border: none;
+        }
+    }
+    &__personal{
+        color: rgb(115, 115, 115);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: left;
+        margin-top: 23px;
+    }
+}
+.special{
+    margin-top: 79px;
+}
+.acquisition{
+    width: 100%;
+    min-height: 197px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    &__first{
+        width: 447px;
+        min-height: 197px;
+        background-image: url('../assets/img/first.png');
+    }
+    &__family{
+        width: 447px;
+        min-height: 197px;
+        background-image: url('../assets/img/family.png'); 
+    }
+    &__credit{
+        width: 447px;
+        min-height: 197px;
+        background-image: url('../assets/img/credit.png');
+    }
+    &__content{
+        color: rgb(115, 115, 115);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin: 29px 25px;
+        h4{
+            color: rgb(38, 38, 38);
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            text-align: left;
+        }
+        button{
+            width: 142px;
+            height: 40px;
+            display: block;
+            border-radius: 6px;
+            background: rgb(194, 194, 196);
+            opacity: 0.5;
+            color: rgb(38, 38, 38);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: center;
+            border: none;
+            margin-top: 43px;
+        }
+    }
+}

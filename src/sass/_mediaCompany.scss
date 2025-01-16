@@ -1,0 +1,44 @@
+@media(max-width: 768px) {
+    .comp{
+        width: 100%;
+        margin: 40px auto 0 auto;
+    }
+    .squares{
+        width: 97%;
+        &__bosses{
+            background-size: 745px 573px;
+            background-repeat: no-repeat;
+            width: 798px;
+            margin-bottom: 40px;
+        }
+        h3{
+            text-align: left;
+            margin-left: 20px;
+        }
+        p{
+            margin: 20px;
+            text-align: left;
+        }
+    }
+    .blog{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .choi{
+        flex-wrap: wrap;
+        margin-top: 0;
+        &__skoda{
+            width: 44.5%;
+            margin-top: 30px;
+        }
+    }
+    .dealership{
+        .ship{
+            width: 40%;
+            margin-top: 70px;
+        }
+        h3{
+            margin-top: 5px;
+        }
+    }
+}

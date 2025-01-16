@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","mappings":";;;;AAAA,IAAIA,CAAC,GAAG,CAAC,GAAC,CAAC;AACXC,OAAO,CAACC,GAAG,CAACF,CAAC,CAAC,C","sources":["webpack://tank/./src/js/main.js"],"sourcesContent":["let a = 2+2;\r\nconsole.log(a);"],"names":["a","console","log"],"sourceRoot":""}
